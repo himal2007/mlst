@@ -1,0 +1,184 @@
+Achromobacter spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_achromobacter_seqdef/schemes/1
+Acinetobacter baumannii sequence/profile definitions	MLST (Oxford)	https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/1
+Acinetobacter baumannii sequence/profile definitions	MLST (Pasteur)	https://rest.pubmlst.org/db/pubmlst_abaumannii_seqdef/schemes/2
+Aeromonas spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_aeromonas_seqdef/schemes/1
+Aggregatibacter actinomycetemcomitans sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_aactinomycetemcomitans_seqdef/schemes/1
+Anaplasma phagocytophilum sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_aphagocytophilum_seqdef/schemes/1
+Arcobacter spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_arcobacter_seqdef/schemes/1
+Aspergillus fumigatus sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_afumigatus_seqdef/schemes/1
+Avibacterium paragallinarum sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_aparagallinarum_seqdef/schemes/1
+Bacillus cereus sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_bcereus_seqdef/schemes/1
+Bacillus licheniformis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_blicheniformis_seqdef/schemes/14
+Bacillus subtilis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_bsubtilis_seqdef/schemes/1
+Lactococcus lactis 936-like bacteriophage sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_llactis_phage_seqdef/schemes/1
+Bacteroides fragilis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_bfragilis_seqdef/schemes/1
+Bartonella bacilliformis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_bbacilliformis_seqdef/schemes/1
+Bartonella henselae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_bhenselae_seqdef/schemes/1
+Bartonella washoensis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_bwashoensis_seqdef/schemes/1
+Blastocystis spp. sequence/profile definitions	ST3 MLST	https://rest.pubmlst.org/db/pubmlst_blastocystis_seqdef/schemes/1
+Blastocystis spp. sequence/profile definitions	ST4 MLST	https://rest.pubmlst.org/db/pubmlst_blastocystis_seqdef/schemes/2
+Borrelia spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_borrelia_seqdef/schemes/1
+Brachyspira spp. sequence/profile definitions	B. hampsonii MLST	https://rest.pubmlst.org/db/pubmlst_brachyspira_seqdef/schemes/5
+Brachyspira spp. sequence/profile definitions	B. hyodysenteriae MLST	https://rest.pubmlst.org/db/pubmlst_brachyspira_seqdef/schemes/2
+Brachyspira spp. sequence/profile definitions	B. intermedia MLST	https://rest.pubmlst.org/db/pubmlst_brachyspira_seqdef/schemes/3
+Brachyspira spp. sequence/profile definitions	B. pilosicoli MLST	https://rest.pubmlst.org/db/pubmlst_brachyspira_seqdef/schemes/4
+Brachyspira spp. sequence/profile definitions	Brachyspira MLST	https://rest.pubmlst.org/db/pubmlst_brachyspira_seqdef/schemes/1
+Brucella spp. sequence/profile definitions	MLST (9 locus)	https://rest.pubmlst.org/db/pubmlst_brucella_seqdef/schemes/1
+Brucella spp. sequence/profile definitions	MLST (21 locus)	https://rest.pubmlst.org/db/pubmlst_brucella_seqdef/schemes/2
+Burkholderia cepacia complex sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_bcc_seqdef/schemes/1
+Burkholderia pseudomallei sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_bpseudomallei_seqdef/schemes/1
+Campylobacter non-jejuni/coli sequence/profile definitions	C. concisus/curvus MLST	https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/5
+Campylobacter non-jejuni/coli sequence/profile definitions	C. fetus MLST	https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/9
+Campylobacter non-jejuni/coli sequence/profile definitions	C. helveticus MLST	https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/1
+Campylobacter non-jejuni/coli sequence/profile definitions	C. hyointestinalis MLST	https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/6
+Campylobacter non-jejuni/coli sequence/profile definitions	C. insulaenigrae MLST	https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/2
+Campylobacter non-jejuni/coli sequence/profile definitions	C. lanienae MLST	https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/7
+Campylobacter non-jejuni/coli sequence/profile definitions	C. lari MLST	https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/3
+Campylobacter non-jejuni/coli sequence/profile definitions	C. sputorum MLST	https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/8
+Campylobacter non-jejuni/coli sequence/profile definitions	C. upsaliensis MLST	https://rest.pubmlst.org/db/pubmlst_campylobacter_nonjejuni_seqdef/schemes/4
+Campylobacter jejuni/coli sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/1
+Campylobacter jejuni/coli sequence/profile definitions	eMLST (21 partial genes)	https://rest.pubmlst.org/db/pubmlst_campylobacter_seqdef/schemes/2
+Candida albicans sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_calbicans_seqdef/schemes/1
+Candida glabrata sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_cglabrata_seqdef/schemes/1
+Candida krusei sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_ckrusei_seqdef/schemes/1
+Candida tropicalis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_ctropicalis_seqdef/schemes/1
+Carnobacterium maltaromaticum sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_cmaltaromaticum_seqdef/schemes/1
+Chlamydiales spp. sequence/profile definitions	MLST (Chlamydiales)	https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/1
+Chlamydiales spp. sequence/profile definitions	MLST (C. trachomatis)	https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/38
+Chlamydiales spp. sequence/profile definitions	MLST (C. trachomatis Uppsala)	https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/41
+Chlamydiales spp. sequence/profile definitions	Plasmid MLST	https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/40
+Citrobacter spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_cfreundii_seqdef/schemes/1
+Clonorchis sinensis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_csinensis_seqdef/schemes/1
+Clostridioides difficile sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_cdifficile_seqdef/schemes/1
+Clostridium botulinum sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_cbotulinum_seqdef/schemes/1
+Clostridium botulinum sequence/profile definitions	Extended MLST	https://rest.pubmlst.org/db/pubmlst_cbotulinum_seqdef/schemes/2
+Clostridium chauvoei sequence/profile definitions	agMLST	https://rest.pubmlst.org/db/pubmlst_cchauvoei_seqdef/schemes/2
+Clostridium perfringens sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_cperfringens_seqdef/schemes/1
+Clostridium septicum sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_csepticum_seqdef/schemes/1
+Cronobacter spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_cronobacter_seqdef/schemes/1
+Cronobacter spp. sequence/profile definitions	cogMLST	https://rest.pubmlst.org/db/pubmlst_cronobacter_seqdef/schemes/4
+Cronobacter spp. sequence/profile definitions	Ext-MLST	https://rest.pubmlst.org/db/pubmlst_cronobacter_seqdef/schemes/3
+Cronobacter spp. sequence/profile definitions	Tax-MLST	https://rest.pubmlst.org/db/pubmlst_cronobacter_seqdef/schemes/2
+Cutibacterium acnes sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_pacnes_seqdef/schemes/3
+Dichelobacter nodosus sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_dnodosus_seqdef/schemes/1
+Edwardsiella spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_edwardsiella_seqdef/schemes/1
+Enterobacter cloacae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_ecloacae_seqdef/schemes/1
+Enterococcus faecalis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_efaecalis_seqdef/schemes/1
+Enterococcus faecium sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_efaecium_seqdef/schemes/1
+Enterococcus faecium sequence/profile definitions	MLST (Bezdíček et al.)	https://rest.pubmlst.org/db/pubmlst_efaecium_seqdef/schemes/2
+Escherichia spp. sequence/profile definitions	MLST (Achtman)	https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/1
+Escherichia spp. sequence/profile definitions	MLST (Pasteur)	https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/2
+Flavobacterium psychrophilum sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_fpsychrophilum_seqdef/schemes/1
+Gallibacterium anatis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_gallibacterium_seqdef/schemes/1
+Geotrichum spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_geotrichum_seqdef/schemes/1
+Glaesserella parasuis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_hparasuis_seqdef/schemes/1
+Haemophilus influenzae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_hinfluenzae_seqdef/schemes/1
+Helicobacter cinaedi sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_hcinaedi_seqdef/schemes/1
+Helicobacter pylori sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_helicobacter_seqdef/schemes/1
+Helicobacter suis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_hsuis_seqdef/schemes/1
+Klebsiella aerogenes sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_kaerogenes_seqdef/schemes/1
+Klebsiella oxytoca sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_koxytoca_seqdef/schemes/1
+Kudoa septempunctata sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_kseptempunctata_seqdef/schemes/1
+Lactobacillus salivarius sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_lsalivarius_seqdef/schemes/1
+Lactococcus garvieae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_lgarvieae_seqdef/schemes/1
+Leptospira spp. sequence/profile definitions	MLST (scheme 1)	https://rest.pubmlst.org/db/pubmlst_leptospira_seqdef/schemes/1
+Leptospira spp. sequence/profile definitions	MLST (scheme 2)	https://rest.pubmlst.org/db/pubmlst_leptospira_seqdef/schemes/2
+Leptospira spp. sequence/profile definitions	MLST (scheme 3)	https://rest.pubmlst.org/db/pubmlst_leptospira_seqdef/schemes/3
+Candidatus Liberibacter solanacearum sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_liberibacter_seqdef/schemes/1
+Macrococcus canis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_mcanis_seqdef/schemes/1
+Macrococcus caseolyticus sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_mcaseolyticus_seqdef/schemes/1
+Mammaliicoccus sciuri sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_msciuri_seqdef/schemes/1
+Mannheimia haemolytica sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_mhaemolytica_seqdef/schemes/1
+Melissococcus plutonius sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_mplutonius_seqdef/schemes/1
+Mycobacteria spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_mycobacteria_seqdef/schemes/2
+Mycobacteroides abscessus complex sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_mabscessus_seqdef/schemes/1
+Mycoplasma agalactiae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_magalactiae_seqdef/schemes/1
+Mycoplasma anserisalpingitidis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_manserisalpingitidis_seqdef/schemes/1
+Mycoplasma bovis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_mbovis_seqdef/schemes/2
+Mycoplasma bovis sequence/profile definitions	MLST (legacy)	https://rest.pubmlst.org/db/pubmlst_mbovis_seqdef/schemes/1
+Mycoplasma flocculare sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_mflocculare_seqdef/schemes/1
+Mycoplasma gallisepticum sequence/profile definitions	MLST#1 (Ghanem)	https://rest.pubmlst.org/db/pubmlst_mgallisepticum_seqdef/schemes/1
+Mycoplasma gallisepticum sequence/profile definitions	MLST#2 (Bekő)	https://rest.pubmlst.org/db/pubmlst_mgallisepticum_seqdef/schemes/2
+Mycoplasma genitalium sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_mgenitalium_seqdef/schemes/2
+Mycoplasma hominis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_mhominis_seqdef/schemes/1
+Mycoplasma hominis sequence/profile definitions	eMLST	https://rest.pubmlst.org/db/pubmlst_mhominis_seqdef/schemes/3
+Mycoplasma hyopneumoniae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_mhyopneumoniae_seqdef/schemes/1
+Mycoplasma hyorhinis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_mhyorhinis_seqdef/schemes/1
+Mycoplasma hyosynoviae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_mhyosynoviae_seqdef/schemes/1
+Mycoplasma iowae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_miowae_seqdef/schemes/1
+Mycoplasma pneumoniae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_mpneumoniae_seqdef/schemes/1
+Mycoplasma synoviae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_msynoviae_seqdef/schemes/1
+Neisseria spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/1
+Neisseria spp. sequence/profile definitions	eMLST (20 locus partial genes)	https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/4
+Neisseria spp. sequence/profile definitions	eMLST (20 locus whole genes)	https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/12
+Neisseria spp. sequence/profile definitions	L44 pgMLST	https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/69
+Neisseria spp. sequence/profile definitions	N. gonorrhoeae agMLST v1.0	https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/80
+Neisseria spp. sequence/profile definitions	N. gonorrhoeae pgMLST v1.0	https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/81
+Orientia tsutsugamushi sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_otsutsugamushi_seqdef/schemes/1
+Ornithobacterium rhinotracheale sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_orhinotracheale_seqdef/schemes/1
+Paenibacillus larvae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_plarvae_seqdef/schemes/1
+Pasteurella multocida sequence/profile definitions	Multiple host MLST	https://rest.pubmlst.org/db/pubmlst_pmultocida_seqdef/schemes/1
+Pasteurella multocida sequence/profile definitions	RIRDC MLST	https://rest.pubmlst.org/db/pubmlst_pmultocida_seqdef/schemes/2
+Pediococcus pentosaceus sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_ppentosaceus_seqdef/schemes/1
+Photobacterium damselae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_pdamselae_seqdef/schemes/1
+Piscirickettsia salmonis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_psalmonis_seqdef/schemes/1
+Plasmid MLST sequence/profile definitions	IncA/C cgPMLST	https://rest.pubmlst.org/db/pubmlst_plasmid_seqdef/schemes/7
+Plasmid MLST sequence/profile definitions	IncA/C PMLST	https://rest.pubmlst.org/db/pubmlst_plasmid_seqdef/schemes/6
+Plasmid MLST sequence/profile definitions	IncHI1 MLST	https://rest.pubmlst.org/db/pubmlst_plasmid_seqdef/schemes/5
+Plasmid MLST sequence/profile definitions	IncI1 MLST	https://rest.pubmlst.org/db/pubmlst_plasmid_seqdef/schemes/1
+Plasmid MLST sequence/profile definitions	IncN MLST	https://rest.pubmlst.org/db/pubmlst_plasmid_seqdef/schemes/4
+Porphyromonas gingivalis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_pgingivalis_seqdef/schemes/1
+Proteus spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_proteus_seqdef/schemes/1
+Pseudomonas aeruginosa sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_paeruginosa_seqdef/schemes/1
+Pseudomonas fluorescens sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_pfluorescens_seqdef/schemes/1
+Pseudomonas putida sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_pputida_seqdef/schemes/1
+Riemerella anatipestifer sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_ranatipestifer_seqdef/schemes/1
+Rhodococcus spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_rhodococcus_seqdef/schemes/1
+Ribosomal MLST sequence/profile definitions	Ribosomal MLST	https://rest.pubmlst.org/db/pubmlst_rmlst_seqdef/schemes/1
+Salmonella spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_salmonella_seqdef/schemes/2
+Saprolegnia parasitica sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_sparasitica_seqdef/schemes/1
+Serratia spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_serratia_seqdef/schemes/1
+Shewanella spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_shewanella_seqdef/schemes/1
+Sinorhizobium spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_sinorhizobium_seqdef/schemes/1
+Stenotrophomonas maltophilia sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_smaltophilia_seqdef/schemes/1
+Staphylococcus aureus sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_saureus_seqdef/schemes/1
+Staphylococcus chromogenes sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_schromogenes_seqdef/schemes/1
+Staphylococcus epidermidis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_sepidermidis_seqdef/schemes/1
+Staphylococcus haemolyticus sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_shaemolyticus_seqdef/schemes/1
+Staphylococcus hominis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_shominis_seqdef/schemes/1
+Staphylococcus pseudintermedius sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_spseudintermedius_seqdef/schemes/1
+Oral Streptococcus spp. sequence/profile definitions	S. mutans MLST (Do)	https://rest.pubmlst.org/db/pubmlst_oralstrep_seqdef/schemes/2
+Oral Streptococcus spp. sequence/profile definitions	S. mutans MLST (Nakano)	https://rest.pubmlst.org/db/pubmlst_oralstrep_seqdef/schemes/3
+Oral Streptococcus spp. sequence/profile definitions	S. oralis MLST	https://rest.pubmlst.org/db/pubmlst_oralstrep_seqdef/schemes/1
+Streptococcus agalactiae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_sagalactiae_seqdef/schemes/1
+Streptococcus bovis/equinus complex (SBSEC) sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_sbsec_seqdef/schemes/1
+Streptococcus canis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_scanis_seqdef/schemes/1
+Streptococcus dysgalactiae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_sdysgalactiae_seqdef/schemes/1
+Streptococcus gallolyticus sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_sgallolyticus_seqdef/schemes/1
+Streptococcus iniae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_siniae_seqdef/schemes/1
+Streptococcus mitis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_smitis_seqdef/schemes/1
+Streptococcus pneumoniae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_spneumoniae_seqdef/schemes/1
+Streptococcus pyogenes sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_spyogenes_seqdef/schemes/1
+Streptococcus suis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_ssuis_seqdef/schemes/1
+Streptococcus thermophilus sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_sthermophilus_seqdef/schemes/1
+Streptococcus uberis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/1
+Streptococcus uberis sequence/profile definitions	vMLST	https://rest.pubmlst.org/db/pubmlst_suberis_seqdef/schemes/2
+Streptococcus zooepidemicus sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_szooepidemicus_seqdef/schemes/1
+Streptomyces spp sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_streptomyces_seqdef/schemes/1
+Taylorella spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_taylorella_seqdef/schemes/1
+Tenacibaculum spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_tenacibaculum_seqdef/schemes/1
+Treponema pallidum sequence/profile definitions	MLST (Grillová)	https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/1
+Treponema pallidum sequence/profile definitions	MLST (Pla-Díaz)	https://rest.pubmlst.org/db/pubmlst_tpallidum_seqdef/schemes/181
+Tricohomas vaginalis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_tvaginalis_seqdef/schemes/1
+Ureaplasma spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_ureaplasma_seqdef/schemes/1
+Ureaplasma spp. sequence/profile definitions	eMLST	https://rest.pubmlst.org/db/pubmlst_ureaplasma_seqdef/schemes/2
+Vibrio cholerae sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_vcholerae_seqdef/schemes/1
+Vibrio cholerae sequence/profile definitions	MLST (O1 and O139)	https://rest.pubmlst.org/db/pubmlst_vcholerae_seqdef/schemes/2
+Vibrio spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_vibrio_seqdef/schemes/1
+Vibrio parahaemolyticus sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_vparahaemolyticus_seqdef/schemes/1
+Vibrio parahaemolyticus sequence/profile definitions	AA-MLST	https://rest.pubmlst.org/db/pubmlst_vparahaemolyticus_seqdef/schemes/2
+Vibrio tapetis sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_vtapetis_seqdef/schemes/1
+Vibrio vulnificus sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_vvulnificus_seqdef/schemes/1
+Wolbachia spp. sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_wolbachia_seqdef/schemes/1
+Xylella fastidiosa sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_xfastidiosa_seqdef/schemes/1
+Yersinia ruckeri sequence/profile definitions	MLST	https://rest.pubmlst.org/db/pubmlst_yruckeri_seqdef/schemes/1
