@@ -1,0 +1,134 @@
+#!/bin/bash
+
+set -e  # Exit on any error
+
+# Function to display usage information
+usage() {
+    cat <<EOF
+Usage: $0 [options]
+
+Options:
+  -i INPUT_DIR      Path to input directory containing MLST schemes (required)
+  -o OUTPUT_DIR     Path to output directory for BLAST database (default: relative to input_dir as ../blast)
+  -t TITLE          Title for the BLAST database (default: PubMLST)
+  -v                Enable verbose mode
+  --dry-run         Simulate actions without creating files
+  -h                Display this help message and exit
+EOF
+    exit 1
+}
+
+# Default values
+INPUT_DIR=""
+OUTPUT_DIR=""
+DB_TITLE="PubMLST"
+VERBOSE=0
+DRY_RUN=0
+
+# Parse command-line arguments
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -i)
+      INPUT_DIR="$2"
+      shift 2
+      ;;
+    -o)
+      OUTPUT_DIR="$2"
+      shift 2
+      ;;
+    -t)
+      DB_TITLE="$2"
+      shift 2
+      ;;
+    -v)
+      VERBOSE=1
+      shift
+      ;;
+    --dry-run)
+      DRY_RUN=1
+      shift
+      ;;
+    -h)
+      usage
+      ;;
+    *)
+      echo "Error: Unknown option $1"
+      usage
+      ;;
+  esac
+done
+
+# Validate input directory
+if [ -z "$INPUT_DIR" ]; then
+  echo "Error: Input directory (-i) is required."
+  usage
+fi
+if [ ! -d "$INPUT_DIR" ]; then
+  echo "Error: Input directory $INPUT_DIR does not exist."
+  exit 1
+fi
+
+# Set default output directory if not provided
+if [ -z "$OUTPUT_DIR" ]; then
+  OUTPUT_DIR="$(dirname "$INPUT_DIR")/blast"
+fi
+
+# Create output directory if not in dry-run mode
+if [ $DRY_RUN -eq 0 ]; then
+  mkdir -p "$OUTPUT_DIR"
+fi
+
+BLASTFILE="$OUTPUT_DIR/mlst.fa"
+
+if [ $DRY_RUN -eq 0 ]; then
+  rm -f "$BLASTFILE"
+fi
+
+[ $VERBOSE -eq 1 ] && echo "Creating BLAST database from $INPUT_DIR with output in $OUTPUT_DIR"
+
+# Helper function for progress bar
+progress_bar() {
+  local progress=$1
+  local total=$2
+  local bar_size=50
+  local filled=$((progress * bar_size / total))
+  local empty=$((bar_size - filled))
+  printf "\r[%s%s] %d%%" \
+         $(printf "#%.0s" $(seq 1 $filled)) \
+         $(printf "-%.0s" $(seq 1 $empty)) \
+         $((progress * 100 / total))
+}
+
+SCHEMES=($(find "$INPUT_DIR" -mindepth 1 -maxdepth 1 -type d))
+TOTAL_SCHEMES=${#SCHEMES[@]}
+
+for i in "${!SCHEMES[@]}"; do
+  SCHEME_DIR="${SCHEMES[$i]}"
+  SCHEME=$(basename "$SCHEME_DIR")
+
+  [ $VERBOSE -eq 1 ] && echo "Processing scheme: $SCHEME"
+
+  if [ $DRY_RUN -eq 0 ]; then
+    find "$SCHEME_DIR" -type f \( -name "*.tfa" -o -name "*.fasta" -o -name "*.fa" -o -name "*.fas" \) -print0 \
+      | xargs -0 cat 2>/dev/null \
+      | grep -v 'not a locus' \
+      | awk -v scheme="$SCHEME" '/^>/ {print ">"scheme"."substr($0,2)} !/^>/ {print}' \
+      >> "$BLASTFILE" || echo "Warning: No valid sequence files found in $SCHEME_DIR"
+  fi
+
+  progress_bar $((i + 1)) $TOTAL_SCHEMES
+
+done
+
+if [ $DRY_RUN -eq 1 ]; then
+  echo -e "\nDry run complete. No files were created."
+  exit 0
+fi
+
+if [ -s "$BLASTFILE" ]; then
+  makeblastdb -hash_index -in "$BLASTFILE" -dbtype nucl -title "$DB_TITLE" -parse_seqids
+  echo -e "\nBLAST database created: $BLASTFILE"
+else
+  echo -e "\nError: No sequences found to create BLAST database."
+  exit 1
+fi
