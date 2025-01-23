@@ -87,16 +87,21 @@ fi
 [ $VERBOSE -eq 1 ] && echo "Creating BLAST database from $INPUT_DIR with output in $OUTPUT_DIR"
 
 # Helper function for progress bar
+
 progress_bar() {
-  local progress=$1
-  local total=$2
-  local bar_size=50
-  local filled=$((progress * bar_size / total))
-  local empty=$((bar_size - filled))
-  printf "\r[%s%s] %d%%" \
-         $(printf "#%.0s" $(seq 1 $filled)) \
-         $(printf "-%.0s" $(seq 1 $empty)) \
-         $((progress * 100 / total))
+    local progress=$1
+    local total=$2
+    local bar_size=50
+    local filled=$((progress * bar_size / total))
+    local empty=$((bar_size - filled))
+    printf "\r["
+    if [ $filled -gt 0 ]; then
+        printf '%*s' "$filled" | tr ' ' '#'
+    fi
+    if [ $empty -gt 0 ]; then
+        printf '%*s' "$empty" | tr ' ' '-'
+    fi
+    printf "] %d%%" $((progress * 100 / total))
 }
 
 SCHEMES=($(find "$INPUT_DIR" -mindepth 1 -maxdepth 1 -type d))
