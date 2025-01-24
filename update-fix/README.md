@@ -172,11 +172,11 @@ python clean_mlst_schemes.py -i mlst_schemes.txt -d ../db/pubmlst/dbases.sh -f a
 
 
 <details>
-    <summary> Auto extraction of scheme?🤔 </summary> 
+<summary>Auto extraction of scheme?🤔</summary>
 
-        First, the script automatically tries to extract the scheme names from the `dbases.sh` file. If the scheme name is not found, it will prompt the user to either print `missing` in the output file or automatically create a scheme name based on the URL. For eg, for URL `https://rest.pubmlst.org/db/pubmlst_afumigatus_seqdef/schemes/1`, the scheme name will be `afumigatus`. If there are multiple schemes, it will append a number to the scheme name. For eg, for URLs `https://rest.pubmlst.org/db/pubmlst_blastocystis_seqdef/schemes/1` and `https://rest.pubmlst.org/db/pubmlst_blastocystis_seqdef/schemes/2`, the scheme names will be `blastocystis_1` and `blastocystis_2` respectively.
+First, the script automatically tries to extract the scheme names from the `dbases.sh` file. If the scheme name is not found, it will prompt the user to either print `missing` in the output file or automatically create a scheme name based on the URL. For eg, for URL `https://rest.pubmlst.org/db/pubmlst_afumigatus_seqdef/schemes/1`, the scheme name will be `afumigatus`. If there are multiple schemes, it will append a number to the scheme name. For eg, for URLs `https://rest.pubmlst.org/db/pubmlst_blastocystis_seqdef/schemes/1` and `https://rest.pubmlst.org/db/pubmlst_blastocystis_seqdef/schemes/2`, the scheme names will be `blastocystis_1` and `blastocystis_2` respectively.
 
-  </details>
+</details>
 
 
 The script offers feature to filter for particular species/schemes. It is recommended to run with filter option and thus, download only the required schemes so as not to tamper with the existing DBs and schemes.
