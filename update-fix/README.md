@@ -6,7 +6,8 @@ These scripts are written to work best with the `mlst` tool. Therefore, it follo
 
 ## Prerequisites
 1. **Install Dependencies**  
-   A `requirements.yml` file is provided for reproducibility. To install the required packages:
+   A `requirements.yml` file is provided for reproducibility. To install the required packages: 
+   
    ```bash
    conda env create -f requirements.yml
    ```
@@ -27,13 +28,14 @@ Run the scripts in the following order to update the MLST database:
 
 ### 1. `bigsdb_downloader.py`
 This script is written by Keith Jolley and the script is availble at [BIGSdb_downloader GitHub Repository](https://github.com/kjolley/BIGSdb_downloader).   
+
 **Purpose**: Sets up OAuth authentication for accessing PubMLST and BIGSdb Pasteur databases.  
 
 **Usage**:  
 ```bash
 python bigsdb_downloader.py --help
 ```
-Example setup for OAuth authentication:
+**Example setup for OAuth authentication**:
 ```bash
 python bigsdb_downloader.py --key_name PubMLST --site PubMLST --db pubmlst_neisseria_isolates --setup
 
@@ -54,7 +56,7 @@ python bigsdb_downloader.py --key_name PubMLST --site PubMLST --db pubmlst_neiss
 # ├── client_credentials
 # └── session_tokens
 ```
-Note that `--db` can be any database in the PubMLST/Pasteur BigsDB system. We just need to set it up once for PubMLST and PasteurDB.
+Note that `--db` can be any database in the PubMLST/Pasteur BigsDB system. We just need to set it up once for PubMLST and for PasteurDB.
 
 **Authentication Verification**:  
 To confirm authenticated access, compare responses to the following:  
@@ -75,12 +77,12 @@ To confirm authenticated access, compare responses to the following:
 This script is modified from the original script written by Keith Jolley and the script is availble at [BIGSdb GitHub Repository](https://github.com/kjolley/BIGSdb/tree/develop/scripts/rest_examples).
 
 **Purpose**: Retrieves all available schemes in PubMLST/PasteurDB using OAuth authentication.  
+
 **Usage**:  
 ```bash
 python get_schemes.py --help
 ```
 
-Help: 
 ```
 usage: get_schemes.py [-h] [-e EXCLUDE] [-m MATCH] -k KEY_NAME [-t TOKEN_DIR]
                       [-b {PubMLST,Pasteur}] [-o OUTPUT] [-r] [-v]
@@ -107,7 +109,7 @@ optional arguments:
   -v, --verbose         Enable verbose logging for debugging
 ```
 
-Example:
+**Example**:
 ```bash
 python get_schemes.py --exclude cgMLST --match MLST --key_name PubMLST
 ```
@@ -132,8 +134,6 @@ The `get_schemes.py` script downloads the db name and scheme name which are not 
 python clean_mlst_schemes.py --help
 ```
 
-Help:
-
 ```bash
 usage: clean_mlst_schemes.py [-h] -i INPUT [-o OUTPUT] -d DBASES [-f FILTER]
                             [-c] [-v]
@@ -155,7 +155,7 @@ optional arguments:
   -v, --verbose         Enable detailed log messages.
 ```
 
-Example:
+**Example**:
 ```bash
 python clean_mlst_schemes.py -i mlst_schemes.txt -d ../db/pubmlst/dbases.sh -o sanitised_mlst_schemes.txt
 # filter by species/scheme
@@ -172,7 +172,8 @@ python clean_mlst_schemes.py -i mlst_schemes.txt -d ../db/pubmlst/dbases.sh -f a
 
 
 <details>
-    <summary> Auto extraction of scheme?🤔 </summary>  
+    <summary> Auto extraction of scheme?🤔 </summary> 
+
         First, the script automatically tries to extract the scheme names from the `dbases.sh` file. If the scheme name is not found, it will prompt the user to either print `missing` in the output file or automatically create a scheme name based on the URL. For eg, for URL `https://rest.pubmlst.org/db/pubmlst_afumigatus_seqdef/schemes/1`, the scheme name will be `afumigatus`. If there are multiple schemes, it will append a number to the scheme name. For eg, for URLs `https://rest.pubmlst.org/db/pubmlst_blastocystis_seqdef/schemes/1` and `https://rest.pubmlst.org/db/pubmlst_blastocystis_seqdef/schemes/2`, the scheme names will be `blastocystis_1` and `blastocystis_2` respectively.
 
   </details>
@@ -191,7 +192,7 @@ This script is based on the functions available in [`pyMLST` tool](https://githu
 ```bash
 python get_mlst_files.py --help
 ```
-Help:
+
 
 ```bash
 usage: get_mlst_files.py [-h] -i INPUT [-d DIRECTORY] -k KEY_NAME
@@ -215,7 +216,7 @@ optional arguments:
   -v, --verbose         Enable verbose logging for debugging
 ```
 
-Example:
+**Example**:
 ```bash
 python get_mlst_files.py --input sanitised_mlst_schemes.txt --key_name PubMLST --base_api PubMLST --verbose
 ```
@@ -245,7 +246,7 @@ The original `mlst-make_blast_db` is modified to accept input and output directo
 ```bash
 bash mlst-make_blast_db -h
 ```
-Help:
+
 ```bash
 Usage: ./mlst-make_blast_db [options]
 
@@ -258,7 +259,7 @@ Options:
   -h                Display this help message and exit
 ```
 
-Example:
+**Example**:
 ```bash
 bash mlst-make_blast_db -i ./pubmlst -t PubMLST -v
 ```
