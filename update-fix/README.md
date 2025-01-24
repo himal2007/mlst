@@ -1,5 +1,16 @@
 # MLST Database Update Scripts
 
+- [Prerequisites](#prerequisites)
+- [Workflow Overview](#workflow-overview)
+- [Script Details](#script-details)
+  - [1. bigsdb_downloader.py](#1-bigsdb_downloaderpy)
+  - [2. get_schemes.py](#2-get_schemespy)
+  - [3. clean_mlst_schemes.py](#3-clean_mlst_schemespy)
+  - [4. get_mlst_files.py](#4-get_mlst_filespy)
+  - [5. makeblastdb](#5-makeblastdb)
+- [Final Steps](#final-steps)
+- [Troubleshooting](#troubleshooting)
+
 This directory contains scripts designed to update the MLST (Multi-Locus Sequence Typing) database for the MLST tool via OAuth authentication. OAuth authentication is required to access data submitted to PubMLST and PasteurDB after 2024-12-31. These scripts allow you to search, prepare, download MLST schemes and update MLST database ensuring that your analyses use the most up-to-date mlst schemes.
 
 These scripts are written to work best with the `mlst` tool. Therefore, it follows it's directory structure and requirements.
