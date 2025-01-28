@@ -132,7 +132,7 @@ def get_mlst_files(url, directory, client_key, client_secret, session_token,
             name = loci.split('/')[-1]
             loci_fasta = session.get(loci + '/alleles_fasta')
             loci_fasta.raise_for_status()
-            loci_file_name = os.path.join(directory, name + '.fasta')
+            loci_file_name = os.path.join(directory, name + '.tfa')
             with open(loci_file_name, 'wb') as f:
                 f.write(loci_fasta.content)
 
