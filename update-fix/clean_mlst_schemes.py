@@ -19,7 +19,7 @@ def parse_arguments():
         "--output",
         type=str,
         default="sanitised_mlst_schemes.txt",
-        help="Output file for sanitised MLST schemes.",
+        help="Output file for sanitised MLST schemes. default: sanitised_mlst_schemes.txt",
     )
     parser.add_argument(
         "-d",
