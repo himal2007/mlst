@@ -47,7 +47,7 @@ def main():
             continue
 
         db_name, scheme_name, url = parts
-        scheme_dir = os.path.join(args.directory, sanitize_name(scheme_name))
+        scheme_dir = os.path.join(args.directory, sanitise_name(scheme_name))
         check_dir(scheme_dir)
 
         try:
@@ -91,8 +91,8 @@ def check_dir(directory):
     if not (path.is_dir() and os.access(directory, os.W_OK)):
         raise PermissionError(f"Cannot write to directory: {directory}")
 
-def sanitize_name(name):
-    """Sanitize directory or file names by replacing invalid characters."""
+def sanitise_name(name):
+    """Sanitise directory or file names by replacing invalid characters."""
     return name.replace('/', '_').replace('\\', '_').replace(':', '_')
 
 def get_mlst_files(url, directory, client_key, client_secret, session_token, 
@@ -140,7 +140,7 @@ def get_mlst_files(url, directory, client_key, client_secret, session_token,
         profiles_url = url + '/profiles_csv'
         profiles = session.get(profiles_url)
         profiles.raise_for_status()
-        profiles_file_path = os.path.join(directory, f"{sanitize_name(scheme_name)}.txt")
+        profiles_file_path = os.path.join(directory, f"{sanitise_name(scheme_name)}.txt")
         with open(profiles_file_path, 'w') as f:
             f.write(profiles.text)
             
