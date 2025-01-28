@@ -186,7 +186,7 @@ python clean_mlst_schemes.py -i mlst_schemes.txt -d ../db/pubmlst/dbases.sh -f a
 <details>
 <summary>Auto extraction of scheme?🤔</summary>
 
-First, the script automatically tries to extract the scheme names from the `dbases.sh` file. If the scheme name is not found, it will prompt the user to either print `missing` in the output file or automatically create a scheme name based on the URL. For eg, for URL `https://rest.pubmlst.org/db/pubmlst_afumigatus_seqdef/schemes/1`, the scheme name will be `afumigatus`. If there are multiple schemes, it will append a number to the scheme name. For eg, for URLs `https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/38` and `https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/41`, the scheme names will be `chlamydiales_38` and `chlamydiales_41` respectively.
+First, the script automatically tries to extract the scheme names from the `dbases.sh` file. If the scheme name is not found, it will prompt the user to either print `missing` in the output file or automatically create a scheme name based on the URL. For eg, for URL `https://rest.pubmlst.org/db/pubmlst_borrelia_seqdef/schemes/1`, the scheme name will be `borrelia`. If there are multiple schemes, it will append a number to the scheme name. For eg, for URLs `https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/38` and `https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/41`, the scheme names will be `chlamydiales_38` and `chlamydiales_41` respectively.
 
 </details>
 
