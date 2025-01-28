@@ -49,7 +49,9 @@ python bigsdb_downloader.py --help
 **Example setup for OAuth authentication**:
 ```bash
 python bigsdb_downloader.py --key_name PubMLST --site PubMLST --db pubmlst_neisseria_isolates --setup
+```
 
+```sh
 # Enter client id: xxxxxxxxxxxxxxxxx
 # Enter client secret: xxxxxxxxxxxxxxxxx
 # Please log in using your user account at https://pubmlst.org/bigsdb?db=pubmlst_neisseria_isolates&page=authorizeClient&oauth_token=xxxxxxxxxx using a web browser to obtain a verification code.
@@ -78,7 +80,7 @@ To confirm authenticated access, compare responses to the following:
   For unauthenticated access, we get a message on the json response saying `"message":"Please note that you are currently restricted to accessing data that was submitted on or prior to 2024-12-31. Please authenticate to access the full dataset."`
 - Authenticated:  
   ```bash
-  ./bigsdb_downloader.py --key_name PubMLST --site PubMLST --url "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/1" | grep -i authenticate
+  python bigsdb_downloader.py --key_name PubMLST --site PubMLST --url "https://rest.pubmlst.org/db/pubmlst_neisseria_seqdef/schemes/1" | grep -i authenticate
   ```
   There should be no message about authentication in the response, if we have successfully authenticated.
 
@@ -181,16 +183,17 @@ python clean_mlst_schemes.py -i mlst_schemes.txt -d ../db/pubmlst/dbases.sh -f a
 - Allows filtering by species or scheme names using wildcard patterns.
 - Counts occurrences of species and schemes.
 
-
 <details>
 <summary>Auto extraction of scheme?🤔</summary>
 
-First, the script automatically tries to extract the scheme names from the `dbases.sh` file. If the scheme name is not found, it will prompt the user to either print `missing` in the output file or automatically create a scheme name based on the URL. For eg, for URL `https://rest.pubmlst.org/db/pubmlst_afumigatus_seqdef/schemes/1`, the scheme name will be `afumigatus`. If there are multiple schemes, it will append a number to the scheme name. For eg, for URLs `https://rest.pubmlst.org/db/pubmlst_blastocystis_seqdef/schemes/1` and `https://rest.pubmlst.org/db/pubmlst_blastocystis_seqdef/schemes/2`, the scheme names will be `blastocystis_1` and `blastocystis_2` respectively.
+First, the script automatically tries to extract the scheme names from the `dbases.sh` file. If the scheme name is not found, it will prompt the user to either print `missing` in the output file or automatically create a scheme name based on the URL. For eg, for URL `https://rest.pubmlst.org/db/pubmlst_afumigatus_seqdef/schemes/1`, the scheme name will be `afumigatus`. If there are multiple schemes, it will append a number to the scheme name. For eg, for URLs `https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/38` and `https://rest.pubmlst.org/db/pubmlst_chlamydiales_seqdef/schemes/41`, the scheme names will be `chlamydiales_38` and `chlamydiales_41` respectively.
 
 </details>
 
 
 The script offers feature to filter for particular species/schemes. It is recommended to run with filter option and thus, download only the required schemes so as not to tamper with the existing DBs and schemes.
+
+**📝Important**: `mlst` tool is designed for typing bacterial species only. Please make sure to filter the non-bacterial schemes from your schemes file.
 
 ---
 
@@ -292,4 +295,3 @@ If you encounter issues, check the following:
 3. Confirm directory structure matches the `mlst` tool's requirements.
 
 For additional support, please raise an issue.
-
